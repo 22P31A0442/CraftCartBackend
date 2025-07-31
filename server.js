@@ -8,9 +8,10 @@ const cartRoutes = require('./routes/cartroute');
 const Contact = require('./models/ContactModel');
 
 
+
+
 const MONGO_URI = "mongodb+srv://22P31A0438:22P31A0438@cluster0.ddihcb4.mongodb.net/CraftCart";
 const PORT = 5000;
-
 
 const app = express();
 app.use(cors());
